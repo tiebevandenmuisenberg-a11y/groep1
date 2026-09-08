@@ -1,0 +1,6 @@
+@BuurtLabWebAPI_HostAddress = http://localhost:5178
+
+GET {{BuurtLabWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
