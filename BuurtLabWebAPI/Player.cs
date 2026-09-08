@@ -8,8 +8,8 @@ public class Player : User
     public string Position { get; set; }
     public string Team { get; set; }
 
-    public Player(string name, double password, string email, string adres, string number, int score, int age, string position, string team, bool isAdmin)
-        : base(name, password, email, adres, number)
+    public Player(string name, double password, string email, string adres, string number, int score, int age, string position, string team, bool isAdmin, string id)
+        : base(name, password, email, adres, number, isAdmin, id)
     {
         Score = score;
         Age = age;
